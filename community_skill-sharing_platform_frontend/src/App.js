@@ -1,7 +1,25 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import HomePage from './HomePage'; // Assume you have this component
+import AboutPage from './AboutPage'; // Assume you have this component
 import './App.css';
 
 function App() {
+
+
+    return (
+        <Router>
+          <Switch>
+            <Route path="/" exact component={HomePage} />
+            <Route path="/about" component={AboutPage} />
+            <Route path="/login" component={LoginForm} />
+          </Switch>
+        </Router>
+    );
+
+
+}
+function LoginForm() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -12,6 +30,7 @@ function App() {
     // For this demo, we'll just log it to the console
     alert(`Login attempted for username: ${username}`);
   };
+  // Your useState hooks and handleSubmit function
 
   return (
       <div className="App">
@@ -46,5 +65,5 @@ function App() {
       </div>
   );
 }
-
 export default App;
+
