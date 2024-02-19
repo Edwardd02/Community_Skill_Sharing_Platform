@@ -6,7 +6,7 @@ function AboutPage() {
         <div>
             Welcome to the AboutPage!
             <br />
-            <Link to="/">Go to Hbout Page</Link>
+            <Link to="/">Go to Home Page</Link>
         </div>
     );
 }
