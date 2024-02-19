@@ -4,3 +4,7 @@ The aim is to create an interactive web platform that connects individuals willi
 To Run: 
 cd community_skill-sharing_platform_frontend
 npm start
+
+Build On:
+Microsoft Windows Version 23H2
+IntelliJ IDEA 2023.3.4 (Ultimate Edition)
