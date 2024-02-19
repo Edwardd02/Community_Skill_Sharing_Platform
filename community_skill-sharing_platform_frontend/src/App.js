@@ -1,19 +1,20 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import HomePage from './HomePage'; // Assume you have this component
-import AboutPage from './AboutPage'; // Assume you have this component
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './HomePage';
+import AboutPage from './AboutPage';
+
 
 function App() {
 
 
     return (
         <Router>
-          <Switch>
-            <Route path="/" exact component={HomePage} />
-            <Route path="/about" component={AboutPage} />
-            <Route path="/login" component={LoginForm} />
-          </Switch>
+            <Routes>
+                <Route path="/" element={<HomePage />} exact />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/login" element={<LoginForm />} />
+            </Routes>
         </Router>
     );
 
