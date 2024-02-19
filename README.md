@@ -5,6 +5,6 @@ Aiming to create an interactive web platform that connects individuals willing t
 cd community_skill-sharing_platform_frontend
 npm start
 
-##Build On
+## Build On
 Microsoft Windows Version 23H2
 IntelliJ IDEA 2023.3.4 (Ultimate Edition)
