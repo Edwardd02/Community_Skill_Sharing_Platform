@@ -1,4 +1,4 @@
-#**Community Skill-Sharing Platform**# is aim to to create an interactive web platform that connects individuals willing to share their skills with those looking to learn, across a range of areas including academic subjects, arts and crafts, tech skills, cooking, and fitness.
+**Community Skill-Sharing Platform** is aim to to create an interactive web platform that connects individuals willing to share their skills with those looking to learn, across a range of areas including academic subjects, arts and crafts, tech skills, cooking, and fitness.
 
 How to build Community Skill-Sharing Platform
 ---------------------
