@@ -6,5 +6,5 @@ cd community_skill-sharing_platform_frontend
 npm start
 
 ## Build On
-Microsoft Windows Version 23H2
+Microsoft Windows Version 23H2 <br/>
 IntelliJ IDEA 2023.3.4 (Ultimate Edition)
