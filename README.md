@@ -3,6 +3,7 @@ Aiming to create an interactive web platform that connects individuals willing t
 
 ## How to build Community Skill-Sharing Platform
 cd community_skill-sharing_platform_frontend
+
 npm start
 
 ## Build On
